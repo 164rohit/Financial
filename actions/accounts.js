@@ -70,15 +70,16 @@ export async function bulkDeleteTransactions(transactionIds) {
     // Group transactions by account to update balances
     const accountBalanceChanges = transactions.reduce((acc, transaction) => {
       const change =
-        transaction.type === "EXPENSE"
-          ? transaction.amount
-          : -transaction.amount;
+  transaction.type === "EXPENSE"
+    ? transaction.amount.toNumber()
+    : -transaction.amount.toNumber();
+
       acc[transaction.accountId] = (acc[transaction.accountId] || 0) + change;
       return acc;
     }, {});
 
     // Delete transactions and update account balances in a transaction
-    await db.transaction(async (tx) => {
+    await db.$transaction(async (tx) => {
       // Delete transactions
       await tx.transaction.deleteMany({
         where: {
