@@ -7,6 +7,8 @@ import {
   Zap,
 } from "lucide-react";
 import DhirajImg from "@/public/dhiraj.jpg"
+import PrakharImg from "@/public/prakhar.jpg"
+import RounakImg from "@/public/rounak.jpg"
 
 // Stats Data
 export const statsData = [
@@ -98,14 +100,14 @@ export const testimonialsData = [
   {
     name: "Rounak Kushwaha",
     role: "Designer",
-    image: "https://randomuser.me/api/portraits/men/75.jpg",
+    image: RounakImg,
     quote:
       "The receipt scanning feature saves me hours each month. Now I can focus on my work instead of manual data entry and expense tracking.",
   },
   {
-    name: "Emily Rodriguez",
+    name: "Prakhar Mishra",
     role: "Financial Advisor",
-    image: "https://randomuser.me/api/portraits/women/74.jpg",
+    image: PrakharImg,
     quote:
       "I’ve tried many apps, but nothing comes close to this. It pulls in all my transactions, highlights wasteful habits, and even gives smart weekly reports. Super helpful!",
   },
