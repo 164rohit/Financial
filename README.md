@@ -9,9 +9,7 @@ It helps users **create budgets, track expenses/income, analyze spending habits*
 
 
 
-## 🖼️ Screenshots  
-### Dashboard View  
-![Dashboard Screenshot](./assets/dashboard.png)
+## Screenshots  
 
 ### Budget Analytics  
 ![Budget Analytics](./assets/budget-analytics.png)
