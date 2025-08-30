@@ -1,6 +1,40 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# AI-Powered Personal Finance & Budgeting Platform  
 
-## Getting Started
+![Dashboard Screenshot](./assets/dashboard.png)
+
+A full-stack personal finance platform built with **React 19, Next.js 15, Tailwind CSS, Supabase, Prisma, Clerk, Arcjet, ShadCN UI, and Gemini API**.  
+It helps users **create budgets, track expenses/income, analyze spending habits**, and use **AI-powered receipt scanning** for automatic data entry.
+
+---
+
+## 🚀 Features
+- **AI Receipt Scanning** – Auto-extracts and fills expense details using Gemini API.  
+- **Budget Creation & Management** – Plan and monitor budgets easily.  
+- **Income & Expense Analytics** – Visual insights to analyze financial habits.  
+- **Secure Authentication** – User management powered by Clerk.  
+- **Modern Responsive UI** – Clean design with Tailwind CSS and ShadCN UI.  
+
+---
+
+## 🖼️ Screenshots  
+### Dashboard View  
+![Dashboard Screenshot](./assets/dashboard.png)
+
+### Budget Analytics  
+![Budget Analytics](./assets/budget-analytics.png)
+
+---
+
+## 🛠️ Tech Stack  
+- **Frontend:** React 19, Next.js 15, Tailwind CSS, ShadCN UI  
+- **Backend & Database:** Supabase, Prisma, Arcjet  
+- **Authentication:** Clerk  
+- **AI Integration:** Gemini API for receipt scanning  
+- **Deployment:** Vercel  
+
+---
+
+## 🧑‍💻 Getting Started
 
 First, run the development server:
 
@@ -12,25 +46,4 @@ yarn dev
 pnpm dev
 # or
 bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
