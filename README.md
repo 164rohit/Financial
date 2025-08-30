@@ -24,16 +24,3 @@ It helps users **create budgets, track expenses/income, analyze spending habits*
 
 ---
 
-## 🧑‍💻 Getting Started
-
-First, run the development server:
-
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-
