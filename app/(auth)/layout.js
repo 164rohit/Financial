@@ -1,11 +1,11 @@
-import React from 'react'
+import React from "react";
 
-const AuthLayout = ({children}) => {
+const AuthLayout = ({ children }) => {
   return (
-    <div>
+    <div className="flex items-center justify-center min-h-screen">
       {children}
     </div>
-  )
-}
+  );
+};
 
-export default AuthLayout
+export default AuthLayout;
